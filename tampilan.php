@@ -31,7 +31,7 @@
                     </thead>
                     <tbody>
                         <?php
-                        include 'koneksi.php';
+                        include 'database.php';
                         $model = new Data();
                         $rows = $model->tampil();
                         $i = 1;

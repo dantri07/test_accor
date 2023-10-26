@@ -21,7 +21,7 @@
         <div >
             <div >
                 <?php
-                include 'koneksi.php';
+                include 'database.php';
                 $model = new Data();
                 $insert = $model->insert();
                 ?>
@@ -45,7 +45,7 @@
                         <td> <input type="text" name="umur"></td>
                     </tr>
                     <div >
-                        <button type="submit" name="submit" >Submit</button>
+                        <button type="submit" name="submit" >Simpan</button>
                     </div>
                 </form>
             </div>

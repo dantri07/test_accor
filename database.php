@@ -69,14 +69,5 @@ Ditambah');</script>";
         }
     }
     
-    public function update($data)
-    {
-        $query = "UPDATE mahasiswa SET nama='$data[nama]',
-alamat='$data[alamat]', umur='$data[umur]' WHERE nama='$data[id] '";
-        if ($sql = $this->conn->query($query)) {
-            return true;
-        } else {
-            return false;
-        }
-    }
+    
 }

@@ -1,5 +1,5 @@
 <?php
-include 'koneksi.php';
+include 'database.php';
 $model = new Data();
 $id = $_REQUEST['id'];
 $delete = $model->delete($id);
