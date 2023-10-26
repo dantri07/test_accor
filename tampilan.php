@@ -44,7 +44,7 @@
                                     <td><?php echo $row['alamat']; ?></td>
                                     <td><?php echo $row['umur']; ?></td>
                                     <td>
-                                        <a href="hapus.php?id=<?php echo $row['nama']; ?>" class="badge badgedanger">Hapus</a>
+                                        <a href="hapus.php?id=<?php echo $row['nama']; ?>">Hapus</a>
                                     </td>
                                 </tr>
                         <?php
